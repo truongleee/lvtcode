@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+border: 0;
+box-sizing: border-box;
+  
+}
+.container{
+    width: 1024px;
+    height: auto;
+    display: block;
+
+}
+body{
+background-color: rgb(255, 255, 255);
+
+
+
+}
+header {
+    width: 1024px;
+    height: 70px;
+   background-color: rgb(255, 255, 255);
+
+}
+header{
+    justify-content: space-between;
+    justify-items: center;
+   display: flex;
+}
+.menu {
+    display: flex;
+    margin: 0;
+   position: relative;
+
+
+}
+
+
+.menu li{
+    list-style: none;
+   padding: 0px 40px;
+    line-height: 70px;
+    
+   font-size: 12px;
+}
+.menu li a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+display: block;
+
+}
+.menu li a img{
+max-height: 10px;
+}
+
+.logo img{
+ margin-top: 10px;
+ margin-left: 30px;
+ border-radius: 100px;
+box-shadow: 1px 2px 5px;
+cursor: pointer;
+}
+
+
+.menu :hover{
+transition: ease-out 0.1s;
+color: rgb(5, 48, 174);
+}
+.dropdownmenu{
+   width: 214px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+  box-shadow: 2px 2px 15px rgb(0, 0, 0);
+  top: 60px;
+   padding-left: 0px;
+ border-radius: 6px;
+}
+.dropdownmenu Li a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  
+
+}
+.dropdownmenu li{
+  color: rgb(255, 255, 255);
+ font-size: 11px;
+ line-height: 30px;
+ margin: 0;
+}
+.menu i {
+    font-size: xx-small;
+}
+.menu :hover .dropdownmenu{
+    display: block;
+}
+.user{
+margin-right:70px ;
+}
+.user a {
+    font-size: 14px;
+    line-height: 70px;
+    color: black;
+    font-weight: bold;
+text-decoration: none;
+}
+.user :hover{
+    color: rgb(5, 48, 174);
+ 
+}
+nav img{
+padding-left: 1.5px;
+}
+.content{
+  display:grid;
+  margin: 15px 220px;
+   width: 1024px;
+   height: Auto;
+   grid-template-columns: 220px 220px 220px ;
+   grid-template-rows: 220px 220px  ;
+  
+   
+
+}
+.html{
+  width: 190px;
+  height:190px;
+  background-color: rgb(247, 240, 240);
+ box-shadow: 1px 1px 3px rgb(69, 75, 67);
+border-radius: 30px;
+cursor: pointer;
+}
+.html Img{
+        height: 65px;
+        margin: 0 40px;
+}
+.csseasy{
+    width: 190px;
+    height:190px;
+    background-color: rgb(247, 240, 240);
+   box-shadow: 1px 1px 3px rgb(69, 75, 67);
+  border-radius: 30px;
+  cursor: pointer;
+  }
+  .csseasy img{
+    height: 65px;
+    margin: 0 30px;
+}
+.csspro{
+    width: 190px;
+    height:190px;
+    background-color: rgb(247, 240, 240);
+   box-shadow: 1px 1px 3px rgb(69, 75, 67);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.csspro img{
+    height: 65px;
+    margin: 0 30px;
+}
+
+.jseasy{
+    width: 190px;
+    height:190px;
+    background-color: rgb(247, 240, 240);
+   box-shadow: 1px 1px 3px rgb(69, 75, 67);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.jseasy img{
+    height: 65px;
+  margin: 0 5px;
+}
+.jspro{
+   width: 190px;
+  height:190px;
+  background-color: rgb(247, 240, 240);
+ box-shadow: 1px 1px 3px rgb(69, 75, 67);
+border-radius: 30px;
+cursor: pointer;
+}
+.jspro img{
+    height: 65px;
+  margin: 0 5px;
+}
+.content h1{
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+
+}
+.content p{
+    font-size: 10px;
+    text-align: center;
+    border-top: solid rgb(81, 71, 71) 1px;
+    margin-top: 15px;
+}
+.html i {
+    padding: 20px 30px ;
+}
+.csseasy i{ padding: 30px 30px ;
+}
+.csspro i{ padding: 30px 30px ;}
+.jseasy i{
+    padding: 30px 30px ;
+}
+.jspro i{
+    padding: 30px 30px ;
+}
+.passage{
+    padding: 15px 90px;
+    width: 700px;
+}
+.passage h1{
+    font-size: 19px;
+    border-bottom: 1px solid rgb(245, 179, 0);
+}
+.passage Li{
+  font-size: 14px;
+}
+.main{
+    padding-top: 10px;
+}
+.why {
+    width: 600px;
+    list-style: none;
+   margin: 30px 80px;
+   
+}
+.why a {
+    text-decoration:none ;
+    color: black;
+    font-size: 19px;
+   font-weight: bold;
+}
+.why li a{
+    padding:5px 0;
+    border-bottom: 1px solid rgb(245, 179, 0);
+ 
+}
+.why p{
+padding: 30px 0;
+font-size: 13px;
+}
+
+   
